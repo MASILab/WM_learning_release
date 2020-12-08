@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/home/yangq6/.conda/envs/py36/bin/python",
+    "python.autoComplete.extraPaths":["/scratch/yangq6/learning/Recobundle/src"]
+}

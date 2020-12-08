@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "/home/yangq6/.conda/envs/py36/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": false
+}
