@@ -16,7 +16,7 @@ The github repo includes the train, valdiation and testing code. The different f
 
 All sorce code binaries, and third-party dependencies have been packaged into a singulairty container. Each method corresponding to one singularity. In the following part, we will show how to run singularity step by step.
 
-#### Step 1. Build input and output directory
+#### Step 1. Prepare your input and output directory
 Let's assume that you work in the $HOME directory. So you can call following command
 ```
 mkdir $HOME/{INPUTS,OUTPUTS}
@@ -26,7 +26,7 @@ mkdir $HOME/{INPUTS,OUTPUTS}
 ```
 mv $your_T1_file $HOME/INPUTS
 ```
-Then, the raw T1 file would be moved into $HOME/INPUTS folder.
+Then, the raw T1 file would be moved into $HOME/INPUTS folder. In the INPUTS directory, we don't make any assumption about the name of T1. But we assume that T1 file should be in format of **.nii.gz**
 
 #### Step 3 Run the singularity
 
@@ -34,9 +34,11 @@ Then, the raw T1 file would be moved into $HOME/INPUTS folder.
 singularity run --bind $HOME/INPUTS:/INPUTS --bind $HOME/OUTPUTS:/OUTPUTS --contain -e --nv $singularity_path
 ```
 
+Currently, all singularities only support GPU mode. We are working in the CPU mode.
+
 ### Step 4 Check output
 
-We have six singularity. The output of each of them can be checked in the followin link [tractSeg](.output/tractSeg.md),[RecoBundle](./output/recobundle.md) [Xtract](./output/xtract.md),[tracula](./output/tracula.md) [AFQ](./output/AFQ.md) [AFQclipped](./output/AFQclipped.md)
+We have six singularity. The output of each of them can be checked in the followin link [tractSeg](./output/tractSeg.md),[RecoBundle](./output/recobundle.md) [Xtract](./output/xtract.md),[tracula](./output/tracula.md) [AFQ](./output/AFQ.md) [AFQclipped](./output/AFQclipped.md)
 
 All the singularities can be found at this [link](https://vanderbilt365-my.sharepoint.com/:f:/g/personal/qi_yang_vanderbilt_edu/EpMsl1c0o69NiNBs4JzEPVABTezoFWPZTHOhwxGByVcVYw) 
 
