@@ -1,0 +1,21 @@
+ID,Bundle Name,File Name
+0,Corpus Callosum Forceps Major,Callosum_Forceps_Major
+1,Corpus Callosum Forceps Minor,Callosum_Forceps_Minor
+2,Arcuate Fasciculus left,Left_Arcuate
+3,Cingulum - Cingulate Gyrus left,Left_Cingulum_Cingulate
+4,Cingulum - Hippocampal Gyrus left,Left_Cingulum_Hippocampus
+5,Corticospinal Tract left,Left_Corticospinal
+6,Inferior Occipito-frontal Fasciculus left,Left_IFOF
+7,Inferior Longitudinal Fasciculus left,Left_ILF
+8,Superior Longitudinal Fasciculus left,Left_SLF
+9,Thalamic Radiation left,Left_Thalamic_Radiation
+10,Uncinate Fasciculus left,Left_Uncinate
+11,Arcuate Fasciculus right,Right_Arcuate
+12,Cingulum - Cingulate Gyrus right,Right_Cingulum_Cingulate
+13,Cingulum - Hippocampal Gyrus right,Right_Cingulum_Hippocampus
+14,Corticospinal Tract right,Right_Corticospinal
+15,Inferior Occipito-frontal Fasciculus right,Right_IFOF
+16,Inferior Longitudinal Fasciculus right,Right_ILF
+17,Superior Longitudinal Fasciculus right,Right_SLF
+18,Thalamic Radiation right,Right_Thalamic_Radiation
+19,Uncinate Fasciculus right,Right_Uncinate

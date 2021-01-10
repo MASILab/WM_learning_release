@@ -1,0 +1,19 @@
+ID,Bundle Name,File Name
+0,Corpus Callosum Forceps Major,fmajor_PP_avg33_mni_bbr
+1,Corpus Callosum Forceps Minor,fminor_PP_avg33_mni_bbr
+2,Anterior Thalamic Radiation left,lh_atr_PP_avg33_mni_bbr
+3,Cingulum - Angular Bundle left,lh_cab_PP_avg33_mni_bbr
+4,Cingulum - Cingulate Gyrus left,lh_ccg_PP_avg33_mni_bbr
+5,Corticospinal Tract left,lh_cst_AS_avg33_mni_bbr
+6,Inferior Longitudinal Fasciculus left,lh_ilf_AS_avg33_mni_bbr
+7,Superior Longitudinal Fasciculus - Parietal left,lh_slfp_PP_avg33_mni_bbr
+8,Superior Longitudinal Fasciculus - Temporal left,lh_slft_PP_avg33_mni_bbr
+9,Uncinate Fasciculus left,lh_unc_AS_avg33_mni_bbr
+10,Anterior Thalamic Radiation right,rh_atr_PP_avg33_mni_bbr
+11,Cingulum - Angular Bundle right,rh_cab_PP_avg33_mni_bbr
+12,Cingulum - Cingulate Gyrus right,rh_ccg_PP_avg33_mni_bbr
+13,Corticospinal Tract right,rh_cst_AS_avg33_mni_bbr
+14,Inferior Longitudinal Fasciculus right,rh_ilf_AS_avg33_mni_bbr
+15,Superior Longitudinal Fasciculus - Parietal right,rh_slfp_PP_avg33_mni_bbr
+16,Superior Longitudinal Fasciculus - Temporal right,rh_slft_PP_avg33_mni_bbr
+17,Uncinate Fasciculus right,rh_unc_AS_avg33_mni_bbr

@@ -1,0 +1,45 @@
+ID,Bundle Name,File Name
+0,Arcuate Fasciculus left,AF_L
+1,Arcuate Fasciculus left,AF_R
+2,Frontal Aslant Tract left,AST_L
+3,Frontal Aslant Tract right,AST_R
+4,Cerebellum left,CB_L
+5,Cerebellum right,CB_R
+6,Corpus Callosum Major,CC_ForcepsMajor
+7,Corpus Callosum Minor,CC_ForcepsMinor
+8,Full corpus callosum,CC
+9,Corpus Callosum Mid,CCMid
+10,Corticospinal Tract left,CST_L
+11,Corticospinal Tract left,CST_R
+12,Central Tegmental Tract left,CTT_L
+13,Central Tegmental Tract right,CTT_R
+14,Extreme Capsule left,EMC_L
+15,Extreme Capsule right,EMC_R
+16,Fronto-pontine tract left,FPT_L
+17,Fronto-pontine tract right,FPT_R
+18,Inferior Fronto-occipital Fasciculus left,IFOF_L
+19,Inferior Fronto-occipital Fasciculus right,IFOF_R
+20,Inferior Longitudinal Fasciculus left,ILF_L
+21,Inferior Longitudinal Fasciculus right,ILF_R
+22,Middle Cerebellar Peduncle,MCP
+23,Middle Longitudinal Fasciculus left,MdLF_L
+24,Middle Longitudinal Fasciculus right,MdLF_R
+25,Medial Longitudinal fasciculus left,MLF_L
+26,Medial Longitudinal fasciculus right,MLF_R
+27,Medial Lemniscus left,ML_L
+28,Medial Lemniscus right,ML_R
+29,Occipito Pontine Tract left,OPT_L
+30,Occipito Pontine Tract right,OPT_R
+31,Optic Radiation left,OR_L
+32,Optic Radiation right,OR_R
+33,Parieto Pontine Tract left,PPT_L
+34,Parieto Pontine Tract right,PPT_R
+35,Superior longitudinal fasciculus left,SLF_L
+36,Superior longitudinal fasciculus right,SLF_R
+37,Spinothalamic Tract left,STT_L
+38,Spinothalamic Tract right,STT_R
+39,Temporopontine Tract left,TPT_L
+40,Temporopontine Tract right,TPT_R
+41,Uncinate Fasciculus left,UF_L
+42,Uncinate Fasciculus right,UF_R
+43,Vermis,V

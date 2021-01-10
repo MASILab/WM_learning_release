@@ -1,0 +1,43 @@
+ID,Bundle Name,File Name
+0,Anterior Commissure,ac
+1,Arcuate Fascile left,af_l
+2,Arcuate Fascile right,af_r
+3,Acoustic Radiation left,ar_l
+4,Acoustic Radiation right,ar_r
+5,Anterior Thalamic Radiation left,atr_l
+6,Anterior Thalamic Radiation right,atr_r
+7,Cingulum Bundle Dorsal left,cbd_l
+8,Cingulum Bundle Dorsal right,cbd_r
+9,Cingulum Bundle Parahippocampal left,cbp_l
+10,Cingulum Bundle Parahippocampal right,cbp_r
+11,Cingulum Bundle Temporal left,cbt_l
+12,Cingulum Bundle Temporal right,cbt_r
+13,Corticospinal Tract left,cst_l
+14,Corticospinal Tract right,cst_r
+15,Frontal Aslant left,fa_l
+16,Frontal Aslant right,fa_r
+17,Forceps Major,fma
+18,Forceps Minor,fm
+19,Fornix left,fx_l
+20,Fornix right,fx_r
+21,Inferior Fronto-occipital Fasciculus left,fo_l
+22,Inferior Fronto-occipital Fasciculus right,fo_r
+23,Inferior Longitudinal Fasciculus left,lf_l
+24,Inferior Longitudinal Fasciculus right,lf_r
+25,Middle Cerebellar Peduncle,mcp
+26,Medio-Dorsal Longitudinal Fasciculus left,mdlf_l
+27,Medio-Dorsal Longitudinal Fasciculus right,mdlf_r
+28,Optic Radiation left,or_l
+29,Optic Radiation right,or_r
+30,Superior Longitudinal Fasciculus 1 left,slf1_l
+31,Superior Longitudinal Fasciculus 1 right,slf1_r
+32,Superior Longitudinal Fasciculus 2 left,slf2_l
+33,Superior Longitudinal Fasciculus 2 right,slf2_r
+34,Superior Longitudinal Fasciculus 3 left,slf3_l
+35,Superior Longitudinal Fasciculus 3 right,slf3_r
+36,Superior Thalamic Radiation left,str_l
+37,Superior Thalamic Radiation right,str_r
+38,Uncinate Fasciculus left,uf_l
+39,Uncinate Fasciculus right,uf_r
+40,Vertical Occipital Fasciculus left,vof_l
+41,Vertical Occipital Fasciculus right,vof_r
