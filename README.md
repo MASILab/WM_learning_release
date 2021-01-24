@@ -43,7 +43,6 @@ We have six singularity. The output of each of them can be checked in the follow
 All the singularities can be found at this [link](https://vanderbilt365-my.sharepoint.com/:f:/g/personal/qi_yang_vanderbilt_edu/EpMsl1c0o69NiNBs4JzEPVABTezoFWPZTHOhwxGByVcVYw) 
 
 ### Reference:
- Need to be updated
-
+Qi Yang*, Colin B Hansen*, Leon Y. Cai, Francois Rheault, Ho Hin Lee, Bramsh Qamar Chandio, Owen Williams, Susan Resnick, Eleftherios Garyfallidis, Adam W Anderson, Maxime Descoteaux, Kurt G Schilling, Bennett A Landman Learning white matter subject-specific segmentation from structural MRI. Medical Physics, submitted (2021)
 ### Contact:
 If you find any issues or questions, please feel free to contact me (qi.yang@vanderbilt.edu)
