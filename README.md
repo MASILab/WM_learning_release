@@ -40,7 +40,6 @@ Currently, all singularities only support GPU mode. We are working in the CPU mo
 
 We have six singularity. The output of each of them can be checked in the followin link [TractSeg](./output/tractSeg.md),[RecoBundles](./output/recobundle.md) [XTRACT](./output/xtract.md),[Tracula](./output/tracula.md) [AFQ](./output/AFQ.md) [AFQclipped](./output/AFQclipped.md). The relationship between file name and saved white matter tract name can be found in doc folder in this repository
 
-All the singularities can be found at this [link](https://vanderbilt365-my.sharepoint.com/:f:/g/personal/qi_yang_vanderbilt_edu/EpMsl1c0o69NiNBs4JzEPVABTezoFWPZTHOhwxGByVcVYw) 
 
 ### Reference:
 Qi Yang*, Colin B Hansen*, Leon Y. Cai, Francois Rheault, Ho Hin Lee, Bramsh Qamar Chandio, Owen Williams, Susan Resnick, Eleftherios Garyfallidis, Adam W Anderson, Maxime Descoteaux, Kurt G Schilling, Bennett A Landman Learning white matter subject-specific segmentation from structural MRI. Medical Physics, submitted (2021)
