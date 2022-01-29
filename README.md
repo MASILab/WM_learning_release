@@ -14,7 +14,7 @@ The github repo includes the train, valdiation and testing code. The different f
 
 ### Singularity
 
-All sorce code binaries, and third-party dependencies have been packaged into a singulairty container. Each method corresponding to one singularity. In the following part, we will show how to run singularity step by step.
+All sorce code binaries, and third-party dependencies have been packaged into a singulairty container. Each method corresponding to one singularity. In the following part, we will show how to run singularity step by step. The sigularity can be found [link](https://vanderbilt365-my.sharepoint.com/:f:/g/personal/qi_yang_vanderbilt_edu/EpMsl1c0o69NiNBs4JzEPVABTezoFWPZTHOhwxGByVcVYw?e=6ct2cm)
 
 #### Step 1. Prepare your input and output directory
 Let's assume that you work in the $HOME directory. So you can call following command
