@@ -14,13 +14,33 @@ The github repo includes the train, valdiation and testing code. The different f
 
 ### Singularity
 
-All sorce code binaries, and third-party dependencies have been packaged into a singulairty container. Each method corresponding to one singularity. In the following part, we will show how to run singularity step by step. The sigularity can be found [link](https://vanderbilt365-my.sharepoint.com/:f:/g/personal/qi_yang_vanderbilt_edu/EpMsl1c0o69NiNBs4JzEPVABTezoFWPZTHOhwxGByVcVYw?e=6ct2cm)
+All source code, binaries, and third-party dependencies have been packaged into Singularity containers. Each algorithm is associated with a separate Singularity image and a corresponding PyTorch model archive, all hosted on Zenodo.
+
+To support algorithm reproducibility, we also provide a sample test T1-weighted image along with its corresponding output files for user validation, available on Zenodo.
+
+Below are the Zenodo links for each algorithm’s Singularity image and model files:
+
+- **[TractSeg](https://zenodo.org/records/15320036)**
+- **[RecoBundles](https://zenodo.org/records/15339811)**
+- **[XTRACT](https://zenodo.org/records/15339809)**
+- **[Tracula](https://zenodo.org/records/15320865)**
+- **[AFQ](https://zenodo.org/records/15320033)**
+- **[AFQClipped](https://zenodo.org/records/15339817)**
+
+In the following section, we provide step-by-step instructions for running each Singularity image.
+
+**⚠️ Note:**  
+- All Singularity images currently support **GPU mode only**.  
+- The most recent tests (as of **May 1, 2025**) were validated on **NVIDIA 2080 Ti** GPUs.  
+- Model loading issues have been observed on newer GPUs (e.g., **A6000**).  
+- **CPU mode is not fully tested** at this time.
 
 #### Step 1. Prepare your input and output directory
 Let's assume that you work in the $HOME directory. So you can call following command
 ```
 mkdir $HOME/{INPUTS,OUTPUTS}
 ```
+
 #### Step 2. Move your T1 file into INPUTS directory
 
 ```
@@ -28,20 +48,33 @@ mv $your_T1_file $HOME/INPUTS
 ```
 Then, the raw T1 file would be moved into $HOME/INPUTS folder. In the INPUTS directory, we don't make any assumption about the name of T1. But we assume that T1 file should be in format of **.nii.gz**
 
-#### Step 3 Run the singularity
+### Step 3. Download Your Singularity Image and the Latest Model for Each Algorithm
 
+For each method:
+
+- Let `$singularity_path` be the path to the downloaded Singularity image.
+- Unzip the model `.tar.gz` file and place its contents in a directory, which you will refer to as `$algorithm_model_path`.
+
+---
+
+### Step 4. Run the Singularity Image
+
+```bash
+singularity run \
+  --bind $HOME/INPUTS:/INPUTS \
+  --bind $HOME/OUTPUTS:/OUTPUTS \
+  --bind $algorithm_model_path:/MODEL \
+  --contain -e --nv $singularity_path
 ```
-singularity run --bind $HOME/INPUTS:/INPUTS --bind $HOME/OUTPUTS:/OUTPUTS --contain -e --nv $singularity_path
-```
 
-Currently, all singularities only support GPU mode. We are working in the CPU mode.
+### Step 5 Check output
 
-### Step 4 Check output
-
-We have six singularity. The output of each of them can be checked in the followin link [TractSeg](./output/tractSeg.md),[RecoBundles](./output/recobundle.md) [XTRACT](./output/xtract.md),[Tracula](./output/tracula.md) [AFQ](./output/AFQ.md) [AFQclipped](./output/AFQclipped.md). The relationship between file name and saved white matter tract name can be found in doc folder in this repository
+We have six singularity. The output of each of them can be checked in the followin link [TractSeg](./output/tractSeg.md),[RecoBundles](./output/recobundle.md) [XTRACT](./output/xtract.md),[Tracula](./output/tracula.md) [AFQ](./output/AFQ.md) [AFQclipped](./output/AFQclipped.md). The relationship between file name and saved white matter tract name can be found in doc folder in this repository.
 
 
 ### Reference:
-Qi Yang*, Colin B Hansen*, Leon Y. Cai, Francois Rheault, Ho Hin Lee, Bramsh Qamar Chandio, Owen Williams, Susan Resnick, Eleftherios Garyfallidis, Adam W Anderson, Maxime Descoteaux, Kurt G Schilling, Bennett A Landman Learning white matter subject-specific segmentation from structural MRI. Medical Physics, submitted (2021)
+
+Qi Yang*, Colin B. Hansen*, Leon Y. Cai, Francois Rheault, Ho Hin Lee, Shunxing Bao, Bramsh Qamar Chandio, Owen Williams, Susan M. Resnick, Eleftherios Garyfallidis, Adam W. Anderson, Maxime Descoteaux, Kurt G. Schilling, Bennett A. Landman. Learning white matter subject-specific segmentation from structural MRI. Medical physics 49.4 (2022): 2502-2513.
+
 ### Contact:
-If you find any issues or questions, please feel free to contact me (qi.yang@vanderbilt.edu)
+If you find any issues or questions, please feel free to contact MASI lab supervisor (bennett.landman@vanderbilt.edu)
