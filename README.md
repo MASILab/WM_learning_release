@@ -29,7 +29,7 @@ Below are the Zenodo links for each algorithm’s Singularity image and model fi
 
 In the following section, we provide step-by-step instructions for running each Singularity image.
 
-**⚠️ Note:**  
+**Note:**  
 - All Singularity images currently support **GPU mode only**.  
 - The most recent tests (as of **May 1, 2025**) were validated on **NVIDIA 2080 Ti** GPUs.  
 - Model loading issues have been observed on newer GPUs (e.g., **A6000**).  
@@ -71,6 +71,11 @@ singularity run \
 
 We have six singularity. The output of each of them can be checked in the followin link [TractSeg](./output/tractSeg.md),[RecoBundles](./output/recobundle.md) [XTRACT](./output/xtract.md),[Tracula](./output/tracula.md) [AFQ](./output/AFQ.md) [AFQclipped](./output/AFQclipped.md). The relationship between file name and saved white matter tract name can be found in doc folder in this repository.
 
+### Optional Notes on Label Outputs
+> The current pipeline uses `antsApplyTransforms` with **BSpline (bicubic-like)** interpolation for warping label images.  
+> This may introduce small negative or non-integer values, which are **not ideal for discrete segmentation labels**.  
+> Since this setting is hardcoded inside the Singularity image, **you cannot change it directly**.  
+> You are encouraged to apply a simple postprocessing step to round values and remove negatives, especially if you need to ensure that output labels remain discrete and integer-valued.
 
 ### Reference:
 
