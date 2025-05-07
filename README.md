@@ -30,8 +30,9 @@ Below are the Zenodo links for each algorithm’s Singularity image and model fi
 In the following section, we provide step-by-step instructions for running each Singularity image.
 
 **Note:**  
-- All Singularity images currently support **GPU mode only**.  
-- The most recent tests (as of **May 1, 2025**) were validated on **NVIDIA 2080 Ti** GPUs.  
+- All Singularity images currently support **GPU mode only**.
+- The recent tests (as of **May 6, 2025**) NVIDIA 1080 Ti systems run without this warning and are fully compatible.
+- The recent tests (as of **May 1, 2025**) were validated on **NVIDIA 2080 Ti** GPUs. A non-fatal warning may appear on 2080 Ti systems due to a CUDA kernel compatibility issue, but it does not affect the output. 
 - Model loading issues have been observed on newer GPUs (e.g., **A6000**).  
 - **CPU mode is not fully tested** at this time.
 
